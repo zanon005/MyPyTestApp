@@ -1,0 +1,13 @@
+1- First check if you have pip3 installed (you can run <pip3 -h> on terminal to test it)
+2- Then install the virtualenv module via pip using <pip3 install virtualenv> on terminal
+3- Choose where you want to create your python3 closed virtual enviroment
+5- And to create your virtual enviroment type in <python3 -m venv ./your-env-name-here>
+6- After a few seconds your venv will be created on the path your terminal is in
+7- To activate you env type in the terminal:
+    Windows terminal: <your-env-name-here\Scripts\activate>
+    Mac OS / Linux: <source your-env-name-here/bin/activate>
+8- To deactivate type in the terminal <deactivate> at any time.
+
+  Everything you install in this virtual enviroment will not affect your host machine,
+very usefull to test different python versions and different modules versions without 
+needing to install it on your machine.
